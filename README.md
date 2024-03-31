@@ -13,6 +13,7 @@ PatternifyJS는 JavaScript의 주요 디자인 패턴을 참조하는 것입니�
 * TypeScript
 
 The Gang of Four (GoF) patterns are based on original synopses inspired from the real life and are available in two distinct flavors: "[classic](GoF/classic)" & "[idiomatic](GoF/idiomatic)".
+
 Gang of Four (GoF) 패턴은 실생활에서 영감을 받은 원본 개요를 기반으로 하며 두 가지 다른 스타일로 제공됩니다:"[classic](GoF/classic)" & "[idiomatic](GoF/idiomatic)".
 
 The classic style emulates the principles of traditional class-based object-oriented languages like Java. Therefore, this style makes heavy use of packages, abstraction, interfaces, classes, inheritance, composition, encapsulation and polymorphism. As a prototype-based language, JavaScript does not have all these functionalities natively (despite all the syntactic sugar introduced by ES6). But it is still possible to use and reproduce most of these concepts... For obvious reasons, constructor functions are the rule in the classic style and each design pattern of this category has its own UML class diagram.
