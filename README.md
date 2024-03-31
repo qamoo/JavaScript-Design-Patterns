@@ -3,6 +3,7 @@
 ## About
 
 PatternifyJS is a reference of the main design patterns in JavaScript. JS libraries are not covered, but the core scripting languages around JavaScript are there. Here is the list of all available languages:
+
 PatternifyJS는 JavaScript의 주요 디자인 패턴을 참조하는 것입니다. JS 라이브러리는 포함되어 있지 않지만 JavaScript 주변의 주요 스크립팅 언어가 있습니다. 모든 사용 가능한 언어 목록은 다음과 같습니다:
 
 * ECMAScript (Vanilla)
