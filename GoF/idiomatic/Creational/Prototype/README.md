@@ -23,9 +23,9 @@ These properties would be available in the new object, but in its prototype.
 We need only two things in this situation:  
 이 상황에서 우리는 두 가지만 필요합니다:
 
-  * An object (literal) that we want to clone (e.g. invoice)
+  * An object (literal) that we want to clone (e.g. invoice)  
     우리가 복제하고자 하는 객체(리터럴) (예: 송장)
-  * A custom cloning function that will take the object to clone as a parameter
+  * A custom cloning function that will take the object to clone as a parameter  
     복제할 객체를 매개변수로 받는 사용자 정의 복제 함수
 
 ![Prototype (idiomatic)](Prototype.png)
