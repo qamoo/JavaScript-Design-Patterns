@@ -1,6 +1,7 @@
 # Synopsis
 
-I am a fan of GNU/Linux distributions and I want to test the big names: Debian, RedHat, Slackware.
+I am a fan of GNU/Linux distributions and I want to test the big names: Debian, RedHat, Slackware.  
+저는 GNU/Linux 배포판의 팬이며, Debian, RedHat, Slackware와 같은 주요 배포판을 테스트하고 싶습니다.
 
 # Problem
 
