@@ -5,6 +5,7 @@
 // ==============================
 
 // A ball does not contain anything
+// 공은 아무 것도 포함하지 않습니다.
 var createBall = function () { 
     return {
         description: function () {
@@ -18,6 +19,7 @@ var createBall = function () {
 // ==============================
 
 // A toy box is a toy entity which contains toys, including smaller toy boxes
+// 장난감 상자는 장난감을 포함하는 장난감 엔티티이며, 그 안에는 더 작은 장난감 상자를 포함하여 장난감이 들어 있습니다.
 var createToyBox = function () {
     return {
         toys: [],
