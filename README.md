@@ -17,12 +17,15 @@ The Gang of Four (GoF) patterns are based on original synopses inspired from the
 Gang of Four (GoF) 패턴은 실생활에서 영감을 받은 원본 개요를 기반으로 하며 두 가지 다른 스타일로 제공됩니다:"[classic](GoF/classic)" & "[idiomatic](GoF/idiomatic)".
 
 The classic style emulates the principles of traditional class-based object-oriented languages like Java. Therefore, this style makes heavy use of packages, abstraction, interfaces, classes, inheritance, composition, encapsulation and polymorphism. As a prototype-based language, JavaScript does not have all these functionalities natively (despite all the syntactic sugar introduced by ES6). But it is still possible to use and reproduce most of these concepts... For obvious reasons, constructor functions are the rule in the classic style and each design pattern of this category has its own UML class diagram.  
+
 클래식 스타일은 Java와 같은 전통적인 클래스 기반 객체지향 언어의 원칙을 모방합니다. 따라서 이 스타일은 패키지, 추상화, 인터페이스, 클래스, 상속, 구성, 캡슐화 및 다형성을 적극적으로 활용합니다. 프로토타입 기반 언어인 JavaScript는 이러한 기능을 네이티브로 갖고 있지 않습니다(ES6에 의해 도입된 모든 문법적 설탕에도 불구하고). 그러나 이러한 개념 대부분을 사용하고 재현하는 것은 여전히 가능합니다... 명백한 이유로 클래식 스타일에서는 생성자 함수가 규칙이며, 이 카테고리의 각 디자인 패턴에는 고유의 UML 클래스 다이어그램이 있습니다.
 
 The idiomatic style reveals the true nature of JavaScript. Constructor functions and classes are replaced by factory functions and object literals, there is no abstraction anymore, encapsulation is reduced to the minimum and flexibility raised to the maximum. With this style, the GoF patterns are a bit difficult to recognize because their overall structure is blurred. But here it is more reasonable to think about objects directly, not about classes. This is the reason why class diagrams have been replaced by UML object diagrams in the idiomatic style.  
+
 관용적인 스타일은 JavaScript의 진정한 본질을 드러냅니다. 생성자 함수와 클래스는 팩토리 함수와 객체 리터럴로 대체되며, 더 이상 추상화가 없습니다. 캡슐화는 최소한으로 줄이고 유연성을 최대한 높입니다. 이 스타일에서는 GoF 패턴이 전반적인 구조가 흐릿해져 인식하기 약간 어렵지만, 여기서는 클래스가 아닌 객체에 직접 관심을 가지는 것이 더 합리적입니다. 이것이 관용적 스타일에서는 클래스 다이어그램이 UML 객체 다이어그램으로 대체된 이유입니다.
 
 Apart from the GoF patterns, there are also miscellaneous (functional and more) patterns in JavaScript that make life easier. They can be of a great help!  
+
 GoF 패턴 이외에도 JavaScript에는 더 다양한 (함수형 및 기타) 패턴이 있습니다. 이러한 패턴들은 삶을 더 쉽게 만들어 줄 수 있습니다!
 
 ## Gang of Four (GoF) patterns
