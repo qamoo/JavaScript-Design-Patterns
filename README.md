@@ -59,7 +59,7 @@ GoF 패턴 이외에도 JavaScript에는 더 다양한 (함수형 및 기타) �
 	* Template ([classic](GoF/classic/Behavioral/Template) | [idiomatic](GoF/idiomatic/Behavioral/Template))
 	* Visitor ([classic](GoF/classic/Behavioral/Visitor) | [idiomatic](GoF/idiomatic/Behavioral/Visitor))
 
-## Miscellaneous patterns
+## Miscellaneous patterns 여러 가지 패턴
 
 * [Currying](misc/Currying)
 * [Method Chaining](misc/MethodChaining)
