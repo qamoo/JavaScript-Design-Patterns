@@ -13,5 +13,6 @@ Functions may have a high arity, which means that they can accept a lot of argum
 
 We can use currying to reduce the arity of a function. The aim of this pattern is to transform a function with many parameters into multiple functions with only one parameter.
 Since JavaScript is an extremely flexible language, the only thing to do is to create a sort of "return chain" where each function returns another function (with only one parameter) until the number of parameters is exhausted.  
+
 커링을 사용하여 함수의 아리티(arity)를 줄일 수 있습니다. 이 패턴의 목표는 많은 매개변수를 가진 함수를 하나의 매개변수만 가진 여러 함수로 변환하는 것입니다. JavaScript는 매우 유연한 언어이기 때문에, 각 함수가 다음 함수(하나의 매개변수만 있는 함수)를 반환하는 일종의 "반환 체인"을 생성하면 됩니다. 이를 통해 매개변수의 개수가 소진될 때까지 함수를 연속적으로 호출할 수 있습니다.
 
