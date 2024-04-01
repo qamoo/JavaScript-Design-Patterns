@@ -16,8 +16,10 @@ Debian, RedHat 및 Slackware는 모두 Linux 배포판입니다.
 
 # Solution
 
-Factory makes it possible to do so. To implement this design pattern, we only need to create a function that will return objects.
+Factory makes it possible to do so. To implement this design pattern, we only need to create a function that will return objects.  
+팩토리를 사용하면 이를 수행할 수 있습니다. 이 디자인 패턴을 구현하기 위해서는 객체를 반환할 함수를 생성하면 됩니다.
 
-In JavaScript, a function or method that returns objects is generally considered as a factory. It is a well-known idiomatic alternative to the use of the "new" keyword along with constructor functions.
+In JavaScript, a function or method that returns objects is generally considered as a factory. It is a well-known idiomatic alternative to the use of the "new" keyword along with constructor functions.  
+자바스크립트에서 객체를 반환하는 함수나 메서드는 일반적으로 팩토리로 간주됩니다. 이것은 "new" 키워드를 생성자 함수와 함께 사용하는 것에 대한 잘 알려진 관용적 대안입니다.
 
 ![Factory (idiomatic)](Factory.png)
