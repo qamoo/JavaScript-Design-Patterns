@@ -18,12 +18,20 @@ Moreover, this is a relay race, not an individual one. Each athlete must know th
 
 Everytime a request should be handled by multiple (and complementary) processing units, the Chain of Responsibility pattern seems ideal. In this case, we can represent each athlete with a simple object literal. We will have:
 
+각 요청이 여러 개의 보조 처리 단위에서 처리되어야 할 때마다, 책임 연쇄 패턴이 이상적으로 보입니다. 이 경우, 각 선수를 간단한 객체 리터럴로 표현할 수 있습니다. 우리는 다음과 같은 구성을 가질 것입니다:
+
   * An object literal representing a walker
+    보행자를 나타내는 객체 리터럴
   * An object literal representing a runner
+    달리기 선수를 나타내는 객체 리터럴
   * An object literal representing a swimmer
+    수영 선수를 나타내는 객체 리터럴
 
 Each of these objects should have at least their own method ("go") whose action will be specific to the associated sport. But each of these particular "go" methods will also transfer some work to the next relay, chosen by the client code.
 
+이러한 각 객체는 적어도 자체 메서드("go")를 가져야 합니다. 이 메서드의 동작은 해당 스포츠와 관련이 있습니다. 그러나 이러한 특정 "go" 메서드 각각은 또한 클라이언트 코드에서 선택한 다음 릴레이에 일부 작업을 전달해야 합니다.
+
 ![Chain of Responsibility (idiomatic)](ChainOfResponsibility.png)
 
-N.B. This design pattern should not be confused with simple method chaining in JavaScript.
+N.B. This design pattern should not be confused with simple method chaining in JavaScript.  
+참고: 이 디자인 패턴은 JavaScript에서의 단순한 메서드 체이닝과 혼동되어서는 안 됩니다.
