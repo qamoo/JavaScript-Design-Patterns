@@ -20,11 +20,11 @@ The Command pattern is a great help here. In this pattern terminology, we will s
 
 여기서 커맨드 패턴은 큰 도움이 됩니다. 이 패턴 용어에서는 다음과 같이 말할 수 있습니다:
  
-  * The restaurant is the "invoker" who creates and handles new orders internally.  
+  * The restaurant is the "invoker" who creates and handles new orders internally.    
     레스토랑은 내부적으로 새로운 주문을 생성하고 처리하는 "invoker"입니다.
-  * The order is the "command", in other words the request which comes from a client.
+  * The order is the "command", in other words the request which comes from a client.  
     주문은 "command"로서, 즉 고객으로부터 온 요청입니다.
-  * The customer is the "receiver" of the order.
+  * The customer is the "receiver" of the order.  
     고객은 주문의 "receiver"입니다.
 
 To implement this pattern, we then need three object literals to represent each entity:
