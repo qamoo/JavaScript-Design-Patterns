@@ -14,4 +14,6 @@ JavaScript에서 객체 리터럴을 사용할 때마다 새로운 객체가 생
 
 We can use Flyweight here, which is actually tied to Factory. A Factory handles flyweights when it reuses instances instead of constantly creating new ones. To do so, we generally use a Map or an object without prototype in the factory function. The first instance of a specific type created by the factory is always saved in this data structure and then reused in all subsequent calls.
 
+여기서는 Flyweight를 사용할 수 있습니다. 실제로 Flyweight는 Factory와 관련이 있습니다. Factory는 새로운 인스턴스를 계속 생성하는 대신에 인스턴스를 재사용할 때 Flyweight를 처리합니다. 이를 위해 일반적으로 Factory 함수 내에서 Map이나 프로토타입이 없는 객체를 사용합니다. Factory에 의해 생성된 특정 유형의 첫 번째 인스턴스는 항상 이러한 데이터 구조에 저장되고, 그 후의 모든 호출에서 재사용됩니다.
+
 ![Flyweight (idiomatic)](Flyweight.png)
