@@ -35,7 +35,7 @@ To implement this pattern, we then need three object literals to represent each 
     고객은 "pay" 메서드만을 가지고 있습니다.
   * The order has a reference to a given customer and makes him pay using its "deliver" method. 
     주문은 특정 고객에 대한 참조를 가지고 있으며 "deliver" 메서드를 사용하여 고객에게 지불하게 합니다.
-  * The restaurant is a more complex object with a collection (array) of orders and an essential method ("prepareOrders") that start the delivery of each order.
+  * The restaurant is a more complex object with a collection (array) of orders and an essential method ("prepareOrders") that start the delivery of each order.  
     레스토랑은 주문의 컬렉션(배열)과 각 주문의 배송을 시작하는 필수 메서드("prepareOrders")를 가진 보다 복잡한 객체입니다.
 
 
